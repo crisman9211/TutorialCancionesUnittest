@@ -34,7 +34,7 @@ jobs:
       run: |
           coverage run -m unittest tests/test_persona.py
           coverage report -m
-          
+
   automerge:
     name: Automerge
     needs: job1
